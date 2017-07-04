@@ -1,0 +1,241 @@
+
+
+/* Controls the image formatting for water pic */
+#resize {
+    box-shadow: 10px 0px 10px black;
+    height: 19em;
+    border-radius: 100%;
+}
+
+/*Controls the images on the user research tab*/
+.userresize {
+    height: 12em;
+    padding-left: 5%;
+}
+
+
+body {
+    /* For browsers that are old */
+    background: white;
+    /* Medium Browsers */
+    background: -webkit-linear-gradient(-100deg, #35577D, #141E30);
+    /* Newer Browsers */
+    background: white;
+    margin: 0;
+    padding: 0;
+}
+
+/* Controls color and alignment of header block */
+header {
+    background:#35577D;
+    text-align: center;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    padding-top: 10em;
+}
+
+/* Controls all the fonts and formatting for Bio Section */
+.Bio {
+    line-height: 1.7em;
+    text-align: left;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.5em;
+    padding-left: 10%; 
+    padding-right: 10%;
+    color: #35577D;
+}
+
+/* Controls formatting for title name */
+.HomePageInfo {
+    font-size: 1.5em; 
+    padding-top: .1em;
+    border-bottom: .3em solid white;
+}
+
+/* Adds padding to the Bio to keep it centered */
+#BioHead {
+    padding-left: 45%;
+}
+
+/* Controls the navbar and the details for it */
+.navbar {
+    font-family: 'Ubuntu', sans-serif;
+    overflow: hidden;
+    position: absolute;
+    background-color: #001026;
+    color: white;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-size: 2em;
+    
+}
+
+/* Changes the Color of the Paragraphs*/
+p {
+    color: #35577D;
+    font-family: 'Ubuntu', sans-serif;
+    color: #35577D;
+}
+
+/* Controls the links and menu bar lists */
+ul {
+    list-style-type: none;
+}
+.bar {
+    float: right;
+}
+li a {
+    display: block;
+    text-align: center;
+    color: white;
+    padding: 1.2em 1.5em;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: black;
+}
+
+
+h1 {
+    font-family: 'Ubuntu', sans-serif;
+    padding-bottom: 2em;
+}
+
+h2 {
+    color: #35577D;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.3em;
+    color: Black;
+    font-style: italic;
+}
+
+
+.Active {
+    background: #4c90ff; 
+}
+
+
+
+.Experience {
+    line-height: 1.7em;
+    text-align: left;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.6em;
+    padding-left: 10%; 
+    padding-right: 10%;
+    color: #35577D;
+}
+
+.Education {
+    line-height: 1.7em;
+    text-align: left;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.5em;
+    padding-left: 10%; 
+    padding-right: 10%;
+    color: #35577D;
+}
+
+.skills {
+    line-height: 1.7em;
+    text-align: left;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.5em;
+    padding-left: 10%; 
+    padding-right: 10%;
+    color: #35577D;
+}
+
+.sectionHeader {
+    color: black;
+    font-weight: bold
+}
+
+.UserPage {
+    line-height: 1.7em;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.3em;
+    padding-bottom: 
+    padding-left: 10%; 
+    padding-right: 10%;
+    padding-bottom: 2%;
+    color: #35577D;
+}
+
+.findings {
+    line-height: 1.7em;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.2em; 
+    padding-left: 10%; 
+    padding-right: 10%;
+    padding-bottom: 2%;
+    color: #35577D;
+}
+
+
+#mainName {
+    color: white;
+}
+
+.ContactInfo {
+    line-height: 1.7em;
+    text-align: left;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3em;
+    padding-left: 15%; 
+    padding-right: 15%;
+    color: #35577D;
+    text-decoration: underline
+}
+
+.ResearchLinks {
+    line-height: 1em;
+    text-align: right;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2em;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: #35577D;
+    text-decoration: underline
+}
+
+/* For Phones */
+@media and (min-width: 10em) {
+    .Bio {
+        padding-left: 5%; 
+        padding-right: 5%;
+        font-size 1em;
+    }
+}
+
+/* For Tablets */
+@media screen and (min-width: 46em) {
+    #resize {
+        box-shadow: 10px 0px 10px black;
+        height: 25em;
+        border-radius: 100%;
+    }
+    .Bio {
+        padding-left: 5%; 
+        padding-right: 5%;
+        font-size 1em;
+    }
+}
+
+/* For Desktop */
+@media screen and (min-width: 75em) {   
+    .HomePageInfo {
+        font-size: 1.5em; 
+        padding-top: .1em;
+        padding-right: 27%;
+        border-bottom: .3em solid white;
+    }
+    
+    #BioHead {
+        padding-left: 45%;
+        font-size: 2em;
+    }
+}
